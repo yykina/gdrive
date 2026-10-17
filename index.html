@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about yykina's personal rclone Google Drive mount.">
+  <title>rclone · yykina's personal Drive mount</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Personal application · yykina</p>
+    <h1>rclone</h1>
+    <p class="lead">A personal Google Drive mount on Ubuntu.</p>
+    <p>This OAuth application is operated by <a href="https://github.com/yykina">yykina</a> for personal use. It authorizes the open-source <a href="https://rclone.org/">rclone</a> program to access the account owner's Google Drive from their own computer.</p>
+    <section>
+      <h2>What it does</h2>
+      <p>rclone makes Drive files accessible through a local folder and the Dolphin file manager. The owner can browse, download, upload, edit, rename, move, and delete files using the permissions granted during Google authorization.</p>
+      <p>This is a personal configuration of rclone. It is maintained by yykina independently of Google and the rclone project.</p>
+    </section>
+    <section>
+      <h2>Why it requests Drive access</h2>
+      <p>Drive access is used to list existing files and folders, read file contents, and save changes back to Drive. The application requests read and write access because it is used as a writable filesystem. The public website does not request authorization or receive Drive files.</p>
+    </section>
+    <section>
+      <h2>Where data is handled</h2>
+      <p>File transfers take place between the owner's computer and Google Drive. Authorization tokens and file caches are stored on the owner's computer. Details about access, storage, sharing, and revoking access are in the <a href="privacy.html">privacy policy</a>.</p>
+    </section>
+    <footer>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="https://github.com/yykina/gdrive/issues">Contact the maintainer</a>
+      <span>Last updated: October 17, 2026</span>
+    </footer>
+  </main>
+</body>
+</html>

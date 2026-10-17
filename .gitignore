@@ -1,0 +1,5 @@
+rclone.conf
+*.token
+client_secret*.json
+.env
+.env.*
